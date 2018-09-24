@@ -1,0 +1,103 @@
+@charset "utf-8"
+*{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+
+
+}
+html{height: 100%}
+body{
+	
+	    height: 100%;
+	    color: #fff;
+		width: 100%;
+        
+		background-color: #131313;
+
+}
+#imag {
+	width: 1300px;
+}
+.D{
+	color: #02779D;
+	font-size: 2.0em;
+
+}
+
+.right{float: right;}
+.left{float: left;}
+.clear{clear: both;}
+.A{
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #F1A20B;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 70px;
+}
+/*Для ссылок а*/
+a:hover{
+	color: #fff;
+	text-decoration: none;
+	transition: all.6s ease;
+
+}
+a:active{color: #FF0000;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*Выделение */
+::selection{ background-color: #fff }
+
+#page-wrap:after{
+	content: ;
+	display: block;
+
+}
+footer,#page-wrap:after{height: 10px}
+#page-wrap{
+	min-height: 94%;
+	margin-top: 10000px;
+}
+/* Стили для футера*/
+#menu{
+	color: #666;
+	font-size: 1.7em;
+	font-family: Comic Sans MS, sans-serif;
+	margin-top: -25px;
+	margin-bottom: 10px;
+
+}
+#menu hr{
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+hr{
+	color: #fff;
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+}
+#menuHrefs a{
+	font-size: 1.5em;
+	padding: 5px  65px;
+	border-radius: 5px;
+	margin-right: 5px;
+	color:#601764;
+}
+#menuHrefs a:hover{
+  background-color: #0675F0;
+}
+.pg{
+	margin-top: 15%;
+}
